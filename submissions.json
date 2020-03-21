@@ -567,6 +567,22 @@
     ],
     "timestamp": "Dec/23/2020 19:26"
   },
+  "CF73895681": {
+    "contest_id": 474,
+    "language": "GNU C++14",
+    "path": "codeforces/474/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Worms",
+    "problem_url": "https://codeforces.com/contest/474/problem/B",
+    "submission_id": "CF73895681",
+    "submission_url": "https://codeforces.com/contest/474/submission/73895681",
+    "tags": [
+      "binary search",
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "Mar/21/2020 20:02"
+  },
   "CF74108817": {
     "contest_id": 1327,
     "language": "GNU C++14",
