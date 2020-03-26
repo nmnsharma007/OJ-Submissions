@@ -567,6 +567,21 @@
     ],
     "timestamp": "Dec/23/2020 19:26"
   },
+  "CF74420129": {
+    "contest_id": 1328,
+    "language": "GNU C++11",
+    "path": "codeforces/1328/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Divisibility Problem",
+    "problem_url": "https://codeforces.com/contest/1328/problem/A",
+    "submission_id": "CF74420129",
+    "submission_url": "https://codeforces.com/contest/1328/submission/74420129",
+    "tags": [
+      "math",
+      "*800"
+    ],
+    "timestamp": "Mar/26/2020 20:28"
+  },
   "CF74551081": {
     "contest_id": 1328,
     "language": "GNU C++14",
