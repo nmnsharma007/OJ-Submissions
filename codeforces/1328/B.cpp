@@ -9,14 +9,17 @@ int main()
     {
         cin >> n >> k;
         string s(n,'a');
-        int i = n-2;
-        while(k > (n-i-1) && i )
+        for(int i = n-2;i >= 0;i--)
         {
-            k -= (n-i-1);
-            i--;
+            if(k <= n-i-1)
+            {
+                s[i] = 'b';
+                s[n-k] = 'b';
+                cout << s << "\n";
+                break;
+            }
+            else
+                k -= (n-i-1);
         }
-        s[i] = 'b';
-        s[n-k] = 'b';
-        cout << s << "\n";
     }
 }
