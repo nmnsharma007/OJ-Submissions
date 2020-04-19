@@ -34,7 +34,6 @@ void initialize()
 }
 int main()
 {
-    //yeah i know i have submitted the same code before thank u for telling me 
     int t,a,b;
     cin >> t >> k;
     initialize();
