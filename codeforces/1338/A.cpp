@@ -27,7 +27,7 @@ int main()
             ans = log2(dif);
             if(pow(2,ans+1) <= dif)
                 ans++;
-            ans++;//codeforces
+            ans++;
         }
         cout << ans << "\n";
     }
