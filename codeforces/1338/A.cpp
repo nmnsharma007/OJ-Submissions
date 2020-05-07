@@ -22,8 +22,13 @@ int main()
             maximum = max(maximum,arr[i]);
         }
         ll ans = 0;
-        if(dif != 0)
-            ans = ceil(log2(dif+1));
+        if(dif)
+        {
+            ans = log2(dif);
+            if(pow(2,ans+1) <= dif)
+                ans++;
+            ans++;//codeforces
+        }
         cout << ans << "\n";
     }
 }
