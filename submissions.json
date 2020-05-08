@@ -567,6 +567,22 @@
     ],
     "timestamp": "Dec/23/2020 19:26"
   },
+  "CF79381479": {
+    "contest_id": 450,
+    "language": "GNU C++14",
+    "path": "codeforces/450/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Jzzhu and Sequences",
+    "problem_url": "https://codeforces.com/contest/450/problem/B",
+    "submission_id": "CF79381479",
+    "submission_url": "https://codeforces.com/contest/450/submission/79381479",
+    "tags": [
+      "implementation",
+      "math",
+      "*1300"
+    ],
+    "timestamp": "May/08/2020 18:52"
+  },
   "CF79432504": {
     "contest_id": 535,
     "language": "GNU C++14",
