@@ -567,6 +567,23 @@
     ],
     "timestamp": "Dec/23/2020 19:26"
   },
+  "CF79746479": {
+    "contest_id": 285,
+    "language": "GNU C++14",
+    "path": "codeforces/285/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Building Permutation",
+    "problem_url": "https://codeforces.com/contest/285/problem/C",
+    "submission_id": "CF79746479",
+    "submission_url": "https://codeforces.com/contest/285/submission/79746479",
+    "tags": [
+      "greedy",
+      "implementation",
+      "sortings",
+      "*1200"
+    ],
+    "timestamp": "May/11/2020 18:19"
+  },
   "CF79799716": {
     "contest_id": 570,
     "language": "GNU C++14",
