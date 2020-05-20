@@ -567,6 +567,24 @@
     ],
     "timestamp": "Dec/23/2020 19:26"
   },
+  "CF80793934": {
+    "contest_id": 471,
+    "language": "GNU C++14",
+    "path": "codeforces/471/C.cpp",
+    "problem_index": "C",
+    "problem_name": "MUH and House of Cards",
+    "problem_url": "https://codeforces.com/contest/471/problem/C",
+    "submission_id": "CF80793934",
+    "submission_url": "https://codeforces.com/contest/471/submission/80793934",
+    "tags": [
+      "binary search",
+      "brute force",
+      "greedy",
+      "math",
+      "*1700"
+    ],
+    "timestamp": "May/20/2020 22:40"
+  },
   "CF80831324": {
     "contest_id": 1324,
     "language": "GNU C++14",
