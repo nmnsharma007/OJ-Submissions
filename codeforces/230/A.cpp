@@ -31,8 +31,7 @@ int main()
     if(flag)
         cout << "YES\n";
     else
-        cout << "NO\n";
-    /*{
+    {
         flag = 1;
         sort(v.begin(),v.end(),sortbysec);
         for(int i=0;i<n;i++)
@@ -49,5 +48,5 @@ int main()
             cout << "YES\n";
         else
             cout << "NO\n";
-    }*/
+    }
 }
