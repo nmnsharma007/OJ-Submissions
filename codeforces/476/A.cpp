@@ -4,9 +4,19 @@ int main()
 {
 	int n,m;
 	cin >> n >> m;
-	int lower_bound = (n+1)/2;
-	int ans = (lower_bound+m-1)/m*m;
-	if(ans > n)
-		ans = -1;
-	cout << ans << "\n";
+	int flag = 0;
+	int ans;
+	for(int i=n/2 + n%2;i<=n;i++)
+	{
+		if(i % m == 0)
+		{
+			ans = i;
+			flag = 1;
+			break;
+		}
+	}
+	if(flag)
+		cout << ans << "\n";
+	else
+		cout << "-1\n";
 }
