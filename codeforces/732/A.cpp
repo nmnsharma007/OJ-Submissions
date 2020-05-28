@@ -4,13 +4,24 @@ int main()
 {
 	int k,r;
 	cin >> k >> r;
-	for(int i=1;i<=10;i++)
+	int n,m = 10000000;
+	for(int i=1;i<=k;i++)
 	{
-		int temp = k*i;
-		if(temp%10 == 0 || temp%10 == r)
+		int temp = 10*i;
+		if(temp%k == 0)
 		{
-			cout << i << "\n";
+			n = temp/k;
 			break;
 		}
 	}
+	for(int i=0;i<=k;i++)
+	{
+		int temp = 10*i+r;
+		if(temp%k == 0)
+		{
+			m = temp/k;
+			break;
+		}
+	}
+	cout << min(m,n) << "\n";
 }
