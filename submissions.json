@@ -567,6 +567,23 @@
     ],
     "timestamp": "Dec/23/2020 19:26"
   },
+  "CF82296140": {
+    "contest_id": 1113,
+    "language": "GNU C++14",
+    "path": "codeforces/1113/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Sasha and His Trip",
+    "problem_url": "https://codeforces.com/contest/1113/problem/A",
+    "submission_id": "CF82296140",
+    "submission_url": "https://codeforces.com/contest/1113/submission/82296140",
+    "tags": [
+      "dp",
+      "greedy",
+      "math",
+      "*900"
+    ],
+    "timestamp": "Jun/02/2020 15:58"
+  },
   "CF82309413": {
     "contest_id": 761,
     "language": "GNU C++14",
