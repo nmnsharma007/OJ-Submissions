@@ -567,6 +567,23 @@
     ],
     "timestamp": "Dec/23/2020 19:26"
   },
+  "CF83517410": {
+    "contest_id": 1270,
+    "language": "GNU C++14",
+    "path": "codeforces/1270/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Interesting Subarray",
+    "problem_url": "https://codeforces.com/contest/1270/problem/B",
+    "submission_id": "CF83517410",
+    "submission_url": "https://codeforces.com/contest/1270/submission/83517410",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "*1200"
+    ],
+    "timestamp": "Jun/12/2020 15:14"
+  },
   "CF83524807": {
     "contest_id": 1205,
     "language": "GNU C++14",
