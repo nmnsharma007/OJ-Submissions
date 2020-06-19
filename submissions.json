@@ -567,6 +567,22 @@
     ],
     "timestamp": "Dec/23/2020 19:26"
   },
+  "CF84330046": {
+    "contest_id": 1248,
+    "language": "GNU C++14",
+    "path": "codeforces/1248/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Integer Points",
+    "problem_url": "https://codeforces.com/contest/1248/problem/A",
+    "submission_id": "CF84330046",
+    "submission_url": "https://codeforces.com/contest/1248/submission/84330046",
+    "tags": [
+      "geometry",
+      "math",
+      "*1000"
+    ],
+    "timestamp": "Jun/19/2020 19:06"
+  },
   "CF84403822": {
     "contest_id": 1140,
     "language": "GNU C++14",
