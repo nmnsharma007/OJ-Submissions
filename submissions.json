@@ -567,6 +567,21 @@
     ],
     "timestamp": "Dec/23/2020 19:26"
   },
+  "CF84403822": {
+    "contest_id": 1140,
+    "language": "GNU C++14",
+    "path": "codeforces/1140/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Detective Book",
+    "problem_url": "https://codeforces.com/contest/1140/problem/A",
+    "submission_id": "CF84403822",
+    "submission_url": "https://codeforces.com/contest/1140/submission/84403822",
+    "tags": [
+      "implementation",
+      "*1000"
+    ],
+    "timestamp": "Jun/20/2020 15:52"
+  },
   "CF84573014": {
     "contest_id": 1200,
     "language": "GNU C++14",
