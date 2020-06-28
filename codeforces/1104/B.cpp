@@ -16,7 +16,7 @@ int main()
         }
     }
     if(count&1)
-        puts("Yes\n");//j
+        puts("Yes\n");
     else
         puts("No\n");
 }
