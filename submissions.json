@@ -567,6 +567,23 @@
     ],
     "timestamp": "Dec/23/2020 19:26"
   },
+  "CF85274765": {
+    "contest_id": 1104,
+    "language": "GNU C++14",
+    "path": "codeforces/1104/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Game with string",
+    "problem_url": "https://codeforces.com/contest/1104/problem/B",
+    "submission_id": "CF85274765",
+    "submission_url": "https://codeforces.com/contest/1104/submission/85274765",
+    "tags": [
+      "data structures",
+      "implementation",
+      "math",
+      "*1200"
+    ],
+    "timestamp": "Jun/28/2020 15:07"
+  },
   "CF85275373": {
     "contest_id": 1066,
     "language": "GNU C++14",
