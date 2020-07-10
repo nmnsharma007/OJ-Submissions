@@ -4,6 +4,18 @@ using ll = long long;
 const int MOD = 1e8;
 ll n1,n2,k1,k2;
 ll dp[110][110][14][14];
+int solve(int f,int h,int lf,int lh)
+{
+	if(dp[f][h][lf][lh] == -1){
+		ll ans = 0;
+		if(h > 0 && lh > 0)
+			ans = (ans + solve(f,h-1,k1,lh-1))%MOD;
+		if(f > 0 && lf > 0)
+			ans = (ans + solve(f-1,h,lf-1,k2))%MOD;
+		dp[f][h][lf][lh] = ans%MOD;
+	}
+	return dp[f][h][lf][lh];
+}
 int main()
 {
 	ios_base::sync_with_stdio(0);
@@ -14,23 +26,6 @@ int main()
 		for(int j = 0; j <= k2;j++)
 			dp[0][0][i][j] = 1;
 	}
-	for(int i = 0; i <= n1;i++){
-		for(int j = 0; j <= n2;j++){
-			for(int k = 0; k <= k1;k++){
-				for(int l = 0; l <= k2;l++){
-					if(i == 0 && j == 0){
-						dp[i][j][k][l] = 1;
-						continue;
-					}
-					ll ans = 0;
-					if(i > 0 && k > 0)
-						ans = (ans + dp[i-1][j][k-1][k2])%MOD;
-					if(j > 0 && l > 0)
-						ans = (ans + dp[i][j-1][k1][l-1])%MOD;
-					dp[i][j][k][l] = ans % MOD;
-				}
-			}
-		}
-	}
-	cout << dp[n1][n2][k1][k2] << "\n";
+	ll ans = solve(n1,n2,k1,k2);
+	cout << ans << "\n";
 }
