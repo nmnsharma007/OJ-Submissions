@@ -567,6 +567,22 @@
     ],
     "timestamp": "Dec/23/2020 19:26"
   },
+  "CF86419953": {
+    "contest_id": 1185,
+    "language": "GNU C++14",
+    "path": "codeforces/1185/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Email from Polycarp",
+    "problem_url": "https://codeforces.com/contest/1185/problem/B",
+    "submission_id": "CF86419953",
+    "submission_url": "https://codeforces.com/contest/1185/submission/86419953",
+    "tags": [
+      "implementation",
+      "strings",
+      "*1200"
+    ],
+    "timestamp": "Jul/10/2020 16:28"
+  },
   "CF86485210": {
     "contest_id": 448,
     "language": "GNU C++14",
