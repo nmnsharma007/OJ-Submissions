@@ -567,6 +567,23 @@
     ],
     "timestamp": "Dec/23/2020 19:26"
   },
+  "CF86639728": {
+    "contest_id": 1372,
+    "language": "GNU C++14",
+    "path": "codeforces/1372/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Omkar and Last Class of Math",
+    "problem_url": "https://codeforces.com/contest/1372/problem/B",
+    "submission_id": "CF86639728",
+    "submission_url": "https://codeforces.com/contest/1372/submission/86639728",
+    "tags": [
+      "greedy",
+      "math",
+      "number theory",
+      "*1300"
+    ],
+    "timestamp": "Jul/12/2020 15:43"
+  },
   "CF86643161": {
     "contest_id": 1372,
     "language": "GNU C++14",
