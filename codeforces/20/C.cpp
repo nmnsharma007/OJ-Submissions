@@ -30,9 +30,9 @@ int main()
 		int cur_node = cur.second;
 		int cur_dist = cur.first;
 		pq.pop();
-		if(cur_dist > dist[cur_node])
+		if(visited[cur_node])
 			continue;
-		//visited[cur_node] = true;
+		visited[cur_node] = true;
 		for(int i = 0; i < (int)adj[cur_node].size();i++){
 			int next_node = adj[cur_node][i].first;
 			int weight = adj[cur_node][i].second;
