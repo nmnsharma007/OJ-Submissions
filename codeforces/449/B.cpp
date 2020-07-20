@@ -15,7 +15,7 @@ void djk()
 		ll cur_node = pq.top().second;
 		ll curd = pq.top().first;
 		pq.pop();
-		if(curd > dist[cur_node])
+		if(curd != dist[cur_node])
 			continue;
 		for(int i = 0; i < (int)adj[cur_node].size();++i){
 			ll next_node = adj[cur_node][i].first.first;
