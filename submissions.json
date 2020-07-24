@@ -567,6 +567,23 @@
     ],
     "timestamp": "Dec/23/2020 19:26"
   },
+  "CF87832757": {
+    "contest_id": 1381,
+    "language": "GNU C++14",
+    "path": "codeforces/1381/A1.cpp",
+    "problem_index": "A1",
+    "problem_name": "Prefix Flip (Easy Version)",
+    "problem_url": "https://codeforces.com/contest/1381/problem/A1",
+    "submission_id": "CF87832757",
+    "submission_url": "https://codeforces.com/contest/1381/submission/87832757",
+    "tags": [
+      "constructive algorithms",
+      "data structures",
+      "strings",
+      "*1300"
+    ],
+    "timestamp": "Jul/24/2020 11:57"
+  },
   "CF87842649": {
     "contest_id": 1381,
     "language": "GNU C++14",
