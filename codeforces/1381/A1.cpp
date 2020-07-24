@@ -13,25 +13,16 @@ int main()
 		string a,b;
 		cin >> a >> b;
 		vector<int> ans;
-		for(int i = n-1; i >= 0; --i){
+		for(int i = 0; i < n;++i){
 			if(a[i] == b[i])
 				continue;
-			if(a[i] != a[0]){
+			if(i == 0)
 				ans.push_back(1);
-				a[0] = (a[0] == '1') ? '0' : '1';
+			else{
+				ans.push_back(i+1);
+				ans.push_back(1);
+				ans.push_back(i+1);
 			}
-			//cout << a << "\n";
-			int left = 0;
-			int right = i;
-			while(left <= right){
-					char c = a[right];
-					a[right] = '1' - (a[left] - '0');
-					a[left] = '1' - (c - '0');
-					++left;
-					--right;
-			}
-		//	cout << a << "\n";
-			ans.push_back(i+1);
 		}
 		cout << ans.size() << " ";
 		for(auto x : ans)
