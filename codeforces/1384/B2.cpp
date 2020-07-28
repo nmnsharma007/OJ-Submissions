@@ -36,7 +36,7 @@ int main()
 					break;
 				}
 				if(tide + depth[j] > l)
-					tide = l-depth[j];
+					tide -= tide-(l - depth[j]);
 				if(tide == 0)
 					down = false;
 				else if(tide == k)
