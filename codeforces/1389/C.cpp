@@ -31,8 +31,6 @@ int main()
 				}
 				if(i != j && count%2 == 0)
 					ans = max(ans,count);
-				else if(i != j && count%2 == 1)
-					ans = max(ans,count-1);
 				else if(i == j)
 					ans = max(ans,count);
 				//cout << "ANSWER:" << ans << "\n";
