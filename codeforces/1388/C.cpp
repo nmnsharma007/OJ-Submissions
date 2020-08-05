@@ -28,7 +28,7 @@ void dfs(int cur_node)
 		return;
 	}
 	good[cur_node] = (pvisit[cur_node] + happiness[cur_node])/2LL;
-	if(good[cur_node] > pvisit[cur_node] || good[cur_node] < 0){
+	if(good[cur_node] > pvisit[cur_node]){
 		flag = 0;
 		return;
 	}
