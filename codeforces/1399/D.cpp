@@ -12,13 +12,13 @@ int main()
 		cin >> n;
 		string s;
 		cin >> s;
-		stack<int> q[2];
+		queue<int> q[2];
 		int ans[n];
 		int k = 0;
 		for(int i = 0; i < n;++i){
 			int d = s[i] - '0';
 			if(!q[d].empty()){
-				int val = q[d].top();
+				int val = q[d].front();
 				q[d].pop();
 				ans[i] = val;
 				q[1-d].push(val);
