@@ -5,7 +5,7 @@ const int N = 1e5+5;
 vector<int> adj[N];
 vector<pair<int,int> > edge;
 vector<pair<ll,int> > edges(N);
-ll weights[N];//cf
+ll weights[N];
 vector<int> parent(N);
 vector<int> leaves(N);
 void dfs(int cur_node)
