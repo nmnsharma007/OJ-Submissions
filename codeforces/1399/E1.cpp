@@ -65,6 +65,12 @@ int main()
 				edges[i+1] = {w,l};
 			}
 		}
+//		for(int i = 1; i <= n-1;++i){
+//			cout << "Edge number : " << i << " ,Weight: " << edges[i].first << " , leaves: " << edges[i].second << "\n";
+//		}
+//		for(int i = 1;i <= n;++i){
+//			cout << "Leaves of: " << i << "are " << leaves[i] << "\n";
+//		}
 		ll sum = 0;
 		priority_queue<pair<ll,int> > pq;
 		for(int i = 1; i <= n-1;++i){
@@ -85,11 +91,9 @@ int main()
 			w /= 2LL;
 			dif = (w-(w/2LL)) * l;
 			edges[pos] = {w,l};
-			++ans;
-			if(w == 0)
-				continue;
 			pq.push({dif,pos});
 			sum += w * l;
+			++ans;
 		}
 		cout << ans << "\n";
 	}
