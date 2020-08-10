@@ -5,10 +5,21 @@ ll xb = 0,xs = 0,xc = 0;
 ll nb,ns,nc,pb,ps,pc,r;
 bool is_possible(ll num)
 {
+	if(num == 0)
+		return true;
 	ll needb,needc,needs;
-	needb = max(0LL,num * xb - nb);
-	needs = max(0LL,num * xs - ns);
-	needc = max(0LL,num * xc - nc);
+	if(xb)
+		needb = max(0LL,num * xb - nb);
+	else
+		needb = 0;
+	if(xs)
+		needs = max(0LL,num * xs - ns);
+	else
+		needs = 0;
+	if(xc)
+		needc = max(0LL,num * xc - nc);
+	else
+		needc = 0;
 	ll cost = needb * pb + needs * ps + needc * pc;
 	if(cost <= r)
 		return true;
