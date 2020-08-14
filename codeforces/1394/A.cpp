@@ -30,13 +30,20 @@ int main()
 		return 0;
 	}
 	for(int i = 0; i < (int)big.size();++i){
-		ll skip = i * d;
-		if(skip > big.size()-i-1+small.size())
+		ll skip = (ll)i * d;
+		sum = 0;
+		if(skip > (ll)((int)big.size() - i - 1 + small.size()))
 			break;
 		sum = big[i];
-		ll need = max(0LL,skip - (big.size() - i - 1));
-		if(small.size()-need >= 1)
-			sum += small[(int)small.size() - 1 - need];
+		ll need = skip - (big.size()-i-1);
+		if(need <= 0){
+			if(small.size() > 0)
+				sum += small[small.size()-1];
+		}
+		else{
+			if(small.size() > 0 && small.size()-need >= 1)
+				sum += small[small.size()-need-1];
+		}
 		ans = max(ans,sum);
 	}
 	cout << ans << "\n";

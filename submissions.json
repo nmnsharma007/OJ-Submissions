@@ -567,6 +567,24 @@
     ],
     "timestamp": "Dec/23/2020 19:26"
   },
+  "CF89864365": {
+    "contest_id": 1394,
+    "language": "GNU C++14",
+    "path": "codeforces/1394/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Boboniu Chats with Du",
+    "problem_url": "https://codeforces.com/contest/1394/problem/A",
+    "submission_id": "CF89864365",
+    "submission_url": "https://codeforces.com/contest/1394/submission/89864365",
+    "tags": [
+      "dp",
+      "greedy",
+      "sortings",
+      "two pointers",
+      "*1800"
+    ],
+    "timestamp": "Aug/14/2020 16:36"
+  },
   "CF89864540": {
     "contest_id": 1394,
     "language": "GNU C++14",
