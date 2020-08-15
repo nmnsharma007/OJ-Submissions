@@ -12,21 +12,21 @@ int main()
 		cin >> arr[i];
 	}
 	sort(arr+1,arr+n+1);
-	ll l = 0;
-	ll r = 1e14;
-	ll ans = 0;
-	while(l < r){
-		ll mid = (l+r+1LL)/2LL;
-		ll cnt = 0LL;
-		for(int i = (n+1)/2;i <= n;++i){
-			cnt += max(0LL,mid-arr[i]);
+	ll mid = (n+1)/2;
+	ll pos = -1;
+	for(ll i = mid+1; i <= n;++i){
+		ll dif = (i - mid) * (arr[i] - arr[mid]);
+		if(dif > k){
+			pos = i-1;
+			break;
 		}
-		if(cnt > k)
-			r = mid-1LL;
-		else{
-			ans = mid;
-			l = mid;
-		}
+		arr[mid] = arr[i];
+		k -= dif;
 	}
+	ll ans;
+	if(pos != -1)
+		ans = arr[mid] + k/(pos-mid+1LL);
+	else 
+		ans = arr[mid] + k/(n-mid+1LL);
 	cout << ans << "\n";
 }
