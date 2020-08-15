@@ -12,16 +12,20 @@ int main()
 		cin >> n;
 		string s;
 		cin >> s;
-		map<int,int> mp;
-		int cur_sum = 0;
+		vector<int> pref(n+1);
+		pref[0] = 0;
+		map<int,ll> mp;
+		for(int i = 1; i <= n;++i){
+			pref[i] = pref[i-1] + (s[i-1]-'0');
+		}
+		for(int i = 0; i <= n;++i){
+			++mp[pref[i]-i-1];
+		}
 		ll ans = 0;
-		for(int i = 0; i < n;++i){
-			cur_sum += (s[i]-'0') - 1;
-			if(cur_sum == 0)
-				++ans;
-			if(mp.find(cur_sum) != mp.end())
-				ans += (ll)mp[cur_sum];
-			++mp[cur_sum];
+		map<int,ll> :: iterator it;
+		for(it = mp.begin();it != mp.end();++it){
+			ll x = it->second;
+			ans += (x*(x-1))/2;
 		}
 		cout << ans << "\n";
 	}
