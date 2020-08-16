@@ -17,10 +17,10 @@ int main()
 	for(int i = 1; i <= B;++i){
 		cin >> b[i];
 	}
-	sort(r+1,r+R+1);
-	sort(g+1,g+G+1);
-	sort(b+1,b+B+1);
-	int dp[R+1][G+1][B+1];
+	sort(r+1,r+R+1,greater<int>());
+	sort(g+1,g+G+1,greater<int>());
+	sort(b+1,b+B+1,greater<int>());
+	int dp[R+1][G+1][B+1];//dp[i][j][k] is maximum area when first i pairs of red,j pair of green and first k pairs of blue sticks are taken
 	memset(dp,0,sizeof(dp));
 	for(int i = 0; i <= R;++i){
 		for(int j = 0; j <= G;++j){
@@ -42,5 +42,13 @@ int main()
 			}
 		}
 	}
-	cout << dp[R][G][B] << "\n"	;
+	int ans = 0;
+	for(int i = 0; i <= R;++i){
+		for(int j = 0; j <= G;++j){
+			for(int k = 0; k <= B;++k){
+				ans = max(ans,dp[i][j][k]);
+			}
+		}
+	}
+	cout << ans << "\n"	;
 }
