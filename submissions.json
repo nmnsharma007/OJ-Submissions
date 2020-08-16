@@ -567,6 +567,23 @@
     ],
     "timestamp": "Dec/23/2020 19:26"
   },
+  "CF90168887": {
+    "contest_id": 1270,
+    "language": "GNU C++14",
+    "path": "codeforces/1270/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Make Good",
+    "problem_url": "https://codeforces.com/contest/1270/problem/C",
+    "submission_id": "CF90168887",
+    "submission_url": "https://codeforces.com/contest/1270/submission/90168887",
+    "tags": [
+      "bitmasks",
+      "constructive algorithms",
+      "math",
+      "*1400"
+    ],
+    "timestamp": "Aug/16/2020 23:12"
+  },
   "CF90231714": {
     "contest_id": 1183,
     "language": "GNU C++11",
