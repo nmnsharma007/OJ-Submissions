@@ -20,7 +20,7 @@ int main()
 	sort(r+1,r+R+1,greater<int>());
 	sort(g+1,g+G+1,greater<int>());
 	sort(b+1,b+B+1,greater<int>());
-	int dp[R+1][G+1][B+1];//dp[i][j][k] is maximum area when first i pairs of red,j pair of green and first k pairs of blue sticks are taken
+	int dp[R+1][G+1][B+1];
 	memset(dp,0,sizeof(dp));
 	for(int i = 0; i <= R;++i){
 		for(int j = 0; j <= G;++j){
