@@ -10,35 +10,25 @@ int main()
 	while(q--){
 		int n;
 		cin >> n;
-		int maxi = 0;
 		vector<int> freq(n+1,0);
-		for(int i = 0; i < n;++i){
+		for(int i = 1; i <= n;++i){
 			int x;
 			cin >> x;
 			++freq[x];
-			maxi = max(maxi,x);
-		}
-		priority_queue<int> pq;
-		for(int i = 1; i <= n;++i){
-			if(freq[i])
-				pq.push(freq[i]);
 		}
 		ll ans = 0;
-		int after = 1e7;
-		while(!pq.empty()){
-			int val = pq.top();
-			pq.pop();
-			if(val < after){
-				ans += val;
-				after = val;
+		sort(freq.begin() + 1,freq.end());
+		int before = 1e6;
+		for(int i = n; i > 0;--i){
+			if(freq[i] < before){
+				ans += freq[i];
+				before = freq[i];
 			}
 			else{
-				if(after > 1){
-					ans += after-1;
-					--after;
-				}
-				else
+				--before;
+				if(before <= 0)
 					break;
+				ans += before;
 			}
 		}
 		cout << ans << "\n";
