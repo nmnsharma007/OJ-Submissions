@@ -17,12 +17,12 @@ int main()
 	}
 	ll dp[n+1][k+1];//dp[i][j] is maximum sum with j segments taken with first i elements.
 	memset(dp,0,sizeof(dp));
-	for(int i = 1; i <= k;++i){
-		for(int j = 1; j <= n;++j){
-			if(j >= m)
-				dp[j][i] = max(dp[j-1][i],dp[j-m][i-1] + arr[j] - arr[j-m]);
+	for(int i = 1; i <= n;++i){
+		for(int j = 1; j <= k;++j){
+			if(i >= m)
+				dp[i][j] = max(dp[i-1][j],dp[i-m][j-1] + arr[i] - arr[i-m]);
 			else
-				dp[j][i] = dp[j-1][i];
+				dp[i][j] = dp[i-1][j];
 		}
 	}
 	cout << dp[n][k] << "\n";
