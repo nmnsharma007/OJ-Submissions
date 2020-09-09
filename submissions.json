@@ -567,6 +567,22 @@
     ],
     "timestamp": "Dec/23/2020 19:26"
   },
+  "CF92369865": {
+    "contest_id": 1404,
+    "language": "GNU C++14",
+    "path": "codeforces/1404/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Balanced Bitstring",
+    "problem_url": "https://codeforces.com/contest/1404/problem/A",
+    "submission_id": "CF92369865",
+    "submission_url": "https://codeforces.com/contest/1404/submission/92369865",
+    "tags": [
+      "implementation",
+      "strings",
+      "*1500"
+    ],
+    "timestamp": "Sep/09/2020 21:40"
+  },
   "CF92518729": {
     "contest_id": 1405,
     "language": "GNU C++14",
