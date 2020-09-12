@@ -567,6 +567,22 @@
     ],
     "timestamp": "Dec/23/2020 19:26"
   },
+  "CF92655399": {
+    "contest_id": 1272,
+    "language": "GNU C++14",
+    "path": "codeforces/1272/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Remove One Element",
+    "problem_url": "https://codeforces.com/contest/1272/problem/D",
+    "submission_id": "CF92655399",
+    "submission_url": "https://codeforces.com/contest/1272/submission/92655399",
+    "tags": [
+      "brute force",
+      "dp",
+      "*1500"
+    ],
+    "timestamp": "Sep/12/2020 23:24"
+  },
   "CF92732718": {
     "contest_id": 1406,
     "language": "GNU C++14",
