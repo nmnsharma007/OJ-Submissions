@@ -567,6 +567,23 @@
     ],
     "timestamp": "Dec/23/2020 19:26"
   },
+  "CF94655764": {
+    "contest_id": 1426,
+    "language": "GNU C++14",
+    "path": "codeforces/1426/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Number of Subsequences",
+    "problem_url": "https://codeforces.com/contest/1426/problem/F",
+    "submission_id": "CF94655764",
+    "submission_url": "https://codeforces.com/contest/1426/submission/94655764",
+    "tags": [
+      "combinatorics",
+      "dp",
+      "strings",
+      "*2000"
+    ],
+    "timestamp": "Oct/04/2020 20:20"
+  },
   "CF94669842": {
     "contest_id": 1422,
     "language": "GNU C++14",
