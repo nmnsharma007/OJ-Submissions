@@ -1,39 +1,23 @@
-#include <bits/stdc++.h>
-typedef long long int ll;
-#define Need_For_Speed(activated) ios_base::sync_with_stdio(false);cin.tie(0);//cout.tie(0);system("cls");
-#define MOD 1000000007
-#define en '\n'
-#define sp " "
-
+#include<bits/stdc++.h>
 using namespace std;
-
-
-
+using ll = long long;
 int main()
 {
-    
-    Need_For_Speed(activated);
-
-    ll n;
-    cin >> n;
-    ll i, md = 0, cd = INT_MIN;
-    long double ed = 0;
-    ll x;
-
-    for(i = 0; i < n; i++) {
-        cin >> x;
-        md += abs(x);
-        cd = max(cd, abs(x));
-        ed += (abs(x) * abs(x)); //ed += (abs(x) * abs(x) * 1LL); this is no good
-    }
-
-    ed = sqrt(ed);
-
-    cout<<md<<en;
-    cout<<fixed<<setprecision(15)<<ed<<en;
-    cout<<cd<<en;
-
-    
-
-    return 0;
+	ios_base::sync_with_stdio(0);
+	cin.tie(0);
+	int n;
+	cin >> n;
+	long double ed = 0;
+	ll md = 0,cd = 0;
+	for(int i = 0; i < n;++i){
+		ll x;
+		cin >> x;
+		cd = max(cd,abs(x));
+		md = md + abs(x);
+		ed = ed + (long double)(x*x);
+	}
+	ed = sqrt(ed);
+	cout << md << "\n";
+	cout << fixed  << setprecision(15) << ed << "\n";
+	cout <<  cd << "\n";
 }
