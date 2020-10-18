@@ -567,6 +567,23 @@
     ],
     "timestamp": "Dec/23/2020 19:26"
   },
+  "CF95845093": {
+    "contest_id": 1422,
+    "language": "GNU C++14",
+    "path": "codeforces/1422/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Returning Home",
+    "problem_url": "https://codeforces.com/contest/1422/problem/D",
+    "submission_id": "CF95845093",
+    "submission_url": "https://codeforces.com/contest/1422/submission/95845093",
+    "tags": [
+      "graphs",
+      "shortest paths",
+      "sortings",
+      "*2300"
+    ],
+    "timestamp": "Oct/18/2020 11:54"
+  },
   "CF95846141": {
     "contest_id": 1428,
     "language": "GNU C++14",
