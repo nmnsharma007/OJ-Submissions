@@ -15,24 +15,47 @@ int main()
 			cout << p << "\n";
 		else{
 			ll ans = 0;
-			vector<ll> primes;
-			ll temp_q = q;
-			for(ll i = 2; i*i <= q;++i){
+			for(int i = 1; i*i<=q;++i){
 				if(q%i == 0){
-					primes.push_back(i);
-					while(q%i == 0){
-						q /= i;
+					ll ffactor = i;
+					ll sfactor = q/i;
+					if(ffactor == 1)
+						ffactor = q;
+					ll temp = p;
+					int cntp = 0,cntq = 0;
+					while(temp%ffactor == 0){
+						++cntp;
+						temp /= ffactor;
 					}
+					temp = q;
+					while(temp%ffactor == 0){
+						++cntq;
+						temp /= ffactor;
+					}
+					temp = p;
+					int dif = cntp-cntq+1;
+					while(dif--){
+						temp /= ffactor; 
+					}
+					ans = max(ans,temp);
+					temp = p;
+					cntp = 0,cntq = 0;
+					while(temp%sfactor == 0){
+						++cntp;
+						temp /= sfactor;
+					}
+					temp = q;
+					while(temp%sfactor == 0){
+						++cntq;
+						temp /= sfactor;
+					}
+					temp = p;
+					dif = cntp-cntq+1;
+					while(dif--){
+						temp /= sfactor; 
+					}
+					ans = max(ans,temp);
 				}
-			}
-			if(q > 1)
-				primes.push_back(q);
-			for(auto x : primes){
-				ll temp_p = p;
-				while(temp_p%temp_q == 0){
-					temp_p /= x;
-				}
-				ans = max(ans,temp_p);
 			}
 			cout << ans << "\n";
 		}
