@@ -1,11 +1,25 @@
 #include<bits/stdc++.h>
 using namespace std;
 using ll = long long;
+const int N = 1e5;
+vector<bool> primes(N+1,true);
+
+void soe()
+{
+	for(int i = 2; i*i <= N;++i){
+		if(primes[i] == true){
+			for(int j = i*i; j <= N;j+=i){
+				primes[j] = false;
+			}
+		}
+	}
+}
 
 int main()
 {
 	ios_base::sync_with_stdio(0);
 	cin.tie(0);
+	soe();
 	int t;
 	cin >> t;
 	while(t--){
