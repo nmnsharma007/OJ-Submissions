@@ -1,36 +1,78 @@
-#include<bits/stdc++.h>
+#pragma GCC optimize ("O3")
+#pragma GCC target ("sse4")
+ 
+#include <bits/stdc++.h>
+ 
 using namespace std;
-using ll = long long;
+ 
+typedef long long ll;
+typedef long double ld;
+typedef complex<ld> cd;
+ 
+typedef pair<int, int> pi;
+typedef pair<ll,ll> pl;
+typedef pair<ld,ld> pd;
+ 
+typedef vector<int> vi;
+typedef vector<ld> vd;
+typedef vector<ll> vl;
+typedef vector<pi> vpi;
+typedef vector<pl> vpl;
+typedef vector<cd> vcd;
+ 
+#define FOR(i, a, b) for (int i=a; i<(b); i++)
+#define F0R(i, a) for (int i=0; i<(a); i++)
+#define FORd(i,a,b) for (int i = (b)-1; i >= a; i--)
+#define F0Rd(i,a) for (int i = (a)-1; i >= 0; i--)
+#define trav(a,x) for (auto& a : x)
+#define uid(a, b) uniform_int_distribution<int>(a, b)(rng)
+ 
+#define sz(x) (int)(x).size()
+#define mp make_pair
+#define pb push_back
+#define f first
+#define s second
+#define lb lower_bound
+#define ub upper_bound
+#define all(x) x.begin(), x.end()
+#define ins insert
 
-int main()
-{
-	ios_base::sync_with_stdio(0);
-	cin.tie(0);
-	ll r1,c1,r2,c2;
-	cin >> r1 >> c1 >> r2 >> c2;
-	if(r1 == r2 && c1 == c2)
-		cout << "0\n";
-	else if(r1+c1 == r2+c2 || r1-c1 == r2-c2 || abs(r1-r2)+abs(c1-c2) <= 3)
-		cout << "1\n";
-	else if((r1+c1)%2 == (r2+c2)%2)
-		cout << "2\n";
-	else{
-		bool exist = false;
-		for(ll r = r1-3; r <= r1+3;++r){
-			for(ll c = c1-3;c <= c1+3;++c){
-				if(abs(r1-r)+abs(c1-c) > 3)
-					continue;
-				if(r+c == r2+c2)
-					exist = true;
-				else if(r-c == r2-c2)
-					exist = true;
-				else if(abs(r-r2)+abs(c-c2) <= 3)
-					exist = true;
-			}
-		}
-		if(exist)
-			cout << "2\n";
-		else
-			cout << "3\n";	
-	}
+template<class T> bool ckmin(T& a, const T& b) { return b < a ? a = b, 1 : 0; }
+template<class T> bool ckmax(T& a, const T& b) { return a < b ? a = b, 1 : 0; }
+ 
+mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
+ 
+const int MOD = 1000000007;
+const char nl = '\n';
+const int MX = 100001; //check the limits, dummy
+ 
+int main() {
+	ios_base::sync_with_stdio(0); cin.tie(0);    
+	
+    int A, B, C, D; cin >> A >> B >> C >> D;
+    if (A == C && B == D) {
+        cout << 0 << nl;
+    } else if (abs(A-C) + abs(B-D) <= 3 || A+B==C+D || A-B==C-D) {
+        cout << 1 << nl;
+    } else if ((A+B)%2 == (C+D)%2) {
+        cout << 2 << nl;
+    } else {
+        for(int x = -3; x <= 3; x++) {
+            for(int y = -3; y <= 3; y++) {
+                if (abs(x) + abs(y) > 3) continue;
+                int X = A + x, Y = B + y;
+                if (abs(X-C) + abs(Y-D) <= 3 || X+Y == C+D || X-Y == C-D) {
+                    cout << 2 << nl; return 0;
+                }
+            }
+        }
+        cout << 3 << nl;
+    }
+	
+	return 0;
 }
+ 
+// read the question correctly (ll vs int)
+// template by bqi343
+
+//just to test something
