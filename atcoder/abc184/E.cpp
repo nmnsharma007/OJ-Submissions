@@ -12,8 +12,8 @@ int main()
 	string grid[h];
 	int srow,scol,erow,ecol;
 	int dist[h][w];
-	vector<bool> freq(26,false);
 	vector<pair<int,int> > adj[26];
+	vector<bool> freq(26,false);
 	for(int i = 0; i < h;++i){
 		cin >> grid[i];
 		for(int j = 0; j < w;++j){
@@ -26,15 +26,15 @@ int main()
 			dist[i][j] = 1e9+7;
 		}
 	}
-	priority_queue<pair<int,pair<int,int>>,vector<pair<int,pair<int,int>>>,greater<pair<int,pair<int,int>>>> pq;
-	pq.push({0,{srow,scol}});
+	queue<pair<int,pair<int,int>>> q;
+	q.push({0,{srow,scol}});
 	dist[srow][scol] = 0;
-	while(!pq.empty()){
-		int cur_row = pq.top().second.first;
-		int cur_col = pq.top().second.second;
-		int cur_dist = pq.top().first;
-		pq.pop();
-		if(cur_dist != dist[cur_row][cur_col])
+	while(!q.empty()){
+		int cur_row = q.front().second.first;
+		int cur_col = q.front().second.second;
+		int cur_dist = q.front().first;
+		q.pop();
+		if(cur_dist > dist[cur_row][cur_col])
 			continue;
 		for(int i = 0; i < 4;++i){
 			int next_row = cur_row + dx[i];
@@ -45,7 +45,7 @@ int main()
 				continue;
 			if(dist[next_row][next_col] > dist[cur_row][cur_col] + 1){
 				dist[next_row][next_col] = dist[cur_row][cur_col] + 1;
-				pq.push({dist[next_row][next_col],{next_row,next_col}});
+				q.push({dist[next_row][next_col],{next_row,next_col}});
 			}
 		}
 		if(grid[cur_row][cur_col] >= 'a' && grid[cur_row][cur_col] <= 'z'){
@@ -58,7 +58,7 @@ int main()
 				int next_col = adj[node][i].second;
 				if(dist[next_row][next_col] > dist[cur_row][cur_col] + 1){
 					dist[next_row][next_col] = dist[cur_row][cur_col] + 1;
-					pq.push({dist[next_row][next_col],{next_row,next_col}});
+					q.push({dist[next_row][next_col],{next_row,next_col}});
 				}
 			}
 		}
