@@ -17,22 +17,22 @@ int main()
 			adj[u].insert(v);
 			adj[v].insert(u);
 		}
-		stack<int> s;
+		queue<int> q;
 		for(int i = 1; i <= n;++i){
 			if(adj[i].size() == 1)
-				s.push(i);
+				q.push(i);
 		}
 		vector<ll> cnt(n+1,1);
-		while(!s.empty()){
-			int cur_node = s.top();
-			s.pop();
+		while(!q.empty()){
+			int cur_node = q.front();
+			q.pop();
 			if(adj[cur_node].size() != 1)
 				continue;
 			int parent = *adj[cur_node].begin();
 			adj[parent].erase(cur_node);
 			adj[cur_node].clear();
 			cnt[parent] += cnt[cur_node];
-			s.push(parent);
+			q.push(parent);
 		}
 		ll ans = 0;
 		for(int node = 1; node <= n;++node){
