@@ -39,13 +39,14 @@ int main()
 	sum = 0;
 	int a = -1,b = -1;
 	for(int i = 0; i <= n-1;++i){
-		if(i-k >= 0 && partial[i]+left[i-k].first > sum){
-			sum = partial[i] + left[i-k].first;
+		ll temp = partial[i];
+		if(i-k >= 0 && temp+left[i-k].first > sum){
+			sum = temp + left[i-k].first;
 			a = i;
 			b = left[i-k].second;
 		}
-		if(i+k < n && partial[i]+right[i+k].first > sum){
-			sum = partial[i]+right[i+k].second;
+		if(i+k < n && temp+right[i+k].first > sum){
+			sum = temp+right[i+k].second;
 			a = i;
 			b = right[i+k].second;
 		}
