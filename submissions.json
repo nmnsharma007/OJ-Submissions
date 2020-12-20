@@ -1,4 +1,20 @@
 {
+  "AC18911024": {
+    "contest_id": "abc186",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc186/E.cpp",
+    "platform": "AtCoder",
+    "problem_index": "E",
+    "problem_name": "Throne",
+    "problem_url": "https://atcoder.jp/contests/abc186/tasks/abc186_e",
+    "submission_id": "AC18911024",
+    "submission_url": "https://atcoder.jp/contests/abc186/submissions/18911024",
+    "tags": [
+      "AtCoder",
+      "*500"
+    ],
+    "timestamp": "Dec/20/2020 18:35"
+  },
   "AC18952866": {
     "contest_id": "abc185",
     "language": "C++ (GCC 9.2.1)",
