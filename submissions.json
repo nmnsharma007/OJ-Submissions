@@ -567,6 +567,22 @@
     ],
     "timestamp": "Dec/23/2020 19:26"
   },
+  "CF102257312": {
+    "contest_id": 993,
+    "language": "GNU C++14",
+    "path": "codeforces/993/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Two Squares",
+    "problem_url": "https://codeforces.com/contest/993/problem/A",
+    "submission_id": "CF102257312",
+    "submission_url": "https://codeforces.com/contest/993/submission/102257312",
+    "tags": [
+      "geometry",
+      "implementation",
+      "*1600"
+    ],
+    "timestamp": "Dec/24/2020 23:39"
+  },
   "CF72103569": {
     "contest_id": 339,
     "language": "GNU C++14",
