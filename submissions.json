@@ -2459,6 +2459,23 @@
     ],
     "timestamp": "Dec/26/2020 19:04"
   },
+  "CF102485893": {
+    "contest_id": 1025,
+    "language": "GNU C++14",
+    "path": "codeforces/1025/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Plasticine zebra",
+    "problem_url": "https://codeforces.com/contest/1025/problem/C",
+    "submission_id": "CF102485893",
+    "submission_url": "https://codeforces.com/contest/1025/submission/102485893",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "*1600"
+    ],
+    "timestamp": "Dec/27/2020 21:59"
+  },
   "CF102491327": {
     "contest_id": 1455,
     "language": "GNU C++14",
