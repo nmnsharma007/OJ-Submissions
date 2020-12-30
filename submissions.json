@@ -2716,6 +2716,22 @@
     ],
     "timestamp": "Dec/29/2020 23:45"
   },
+  "CF102780453": {
+    "contest_id": 1466,
+    "language": "GNU C++14",
+    "path": "codeforces/1466/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Bovine Dilemma",
+    "problem_url": "https://codeforces.com/contest/1466/problem/A",
+    "submission_id": "CF102780453",
+    "submission_url": "https://codeforces.com/contest/1466/submission/102780453",
+    "tags": [
+      "brute force",
+      "math"
+    ],
+    "timestamp": "Dec/30/2020 20:13"
+  },
   "CF102788470": {
     "contest_id": 1466,
     "language": "GNU C++14",
