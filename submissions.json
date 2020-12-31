@@ -2783,6 +2783,22 @@
     ],
     "timestamp": "Dec/30/2020 21:11"
   },
+  "CF102895315": {
+    "contest_id": 1466,
+    "language": "GNU C++14",
+    "path": "codeforces/1466/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "13th Labour of Heracles",
+    "problem_url": "https://codeforces.com/contest/1466/problem/D",
+    "submission_id": "CF102895315",
+    "submission_url": "https://codeforces.com/contest/1466/submission/102895315",
+    "tags": [
+      "greedy",
+      "trees"
+    ],
+    "timestamp": "Dec/31/2020 13:59"
+  },
   "CF71978480": {
     "contest_id": 4,
     "language": "GNU C++14",
