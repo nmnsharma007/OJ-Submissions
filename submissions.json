@@ -1775,6 +1775,22 @@
     ],
     "timestamp": "Dec/23/2020 17:27"
   },
+  "AC19130578": {
+    "contest_id": "abc187",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc187/C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "1-SAT",
+    "problem_url": "https://atcoder.jp/contests/abc187/tasks/abc187_c",
+    "submission_id": "AC19130578",
+    "submission_url": "https://atcoder.jp/contests/abc187/submissions/19130578",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Jan/02/2021 17:46"
+  },
   "AC19163879": {
     "contest_id": "abc187",
     "language": "C++ (GCC 9.2.1)",
