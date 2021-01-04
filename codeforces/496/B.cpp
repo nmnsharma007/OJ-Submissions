@@ -11,7 +11,21 @@ string solve(string a, string b){
 	}
 	if(a == "")
 		return b;
-	return min(a,b);
+	int pos = -1;
+	for(int i = 0; i < (int)b.length();++i){
+		if(a[i] != b[i]){
+			pos = i;
+			break;
+		}
+	}
+	if(pos == -1)
+		return a;
+	else{
+		if(a[pos] > b[pos])
+			return b;
+		else
+			return a;
+	}
 }
 
 int main()
