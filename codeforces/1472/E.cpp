@@ -5,6 +5,7 @@ using ll = long long;
 bool comp(pair<pair<ll,ll>,int> &a,pair<pair<ll,ll>,int> &b){
 	if(a.first.first != b.first.first)
 		return a.first.first < b.first.first;
+	return a.first.second < b.first.second;
 }
 
 int main()
