@@ -13,6 +13,7 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
+929 | [C - Triangles](https://codeforces.com/contest/1453/problem/C) | [GNU C++14](./codeforces/1453/C.cpp) | `greedy` `implementation` `*1700` | Jan/08/2021 13:14 | 
 928 | [B - Suffix Operations](https://codeforces.com/contest/1453/problem/B) | [GNU C++14](./codeforces/1453/B.cpp) | `constructive algorithms` `implementation` `*1400` | Jan/07/2021 20:27 | 
 927 | [A - Cancel the Trains](https://codeforces.com/contest/1453/problem/A) | [GNU C++14](./codeforces/1453/A.cpp) | `implementation` `*800` | Jan/07/2021 18:21 | 
 926 | [A - DZY Loves Physics](https://codeforces.com/contest/444/problem/A) | [GNU C++14](./codeforces/444/A.cpp) | `greedy` `math` `*1600` | Jan/07/2021 17:18 | 
