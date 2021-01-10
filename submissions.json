@@ -1855,6 +1855,22 @@
     ],
     "timestamp": "Jan/02/2021 23:14"
   },
+  "AC19315038": {
+    "contest_id": "abc188",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc188/A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Three-Point Shot",
+    "problem_url": "https://atcoder.jp/contests/abc188/tasks/abc188_a",
+    "submission_id": "AC19315038",
+    "submission_url": "https://atcoder.jp/contests/abc188/submissions/19315038",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Jan/10/2021 17:32"
+  },
   "AC19319883": {
     "contest_id": "abc188",
     "language": "C++ (GCC 9.2.1)",
