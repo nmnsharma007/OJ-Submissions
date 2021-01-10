@@ -1855,6 +1855,22 @@
     ],
     "timestamp": "Jan/02/2021 23:14"
   },
+  "AC19319883": {
+    "contest_id": "abc188",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc188/B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Orthogonality",
+    "problem_url": "https://atcoder.jp/contests/abc188/tasks/abc188_b",
+    "submission_id": "AC19319883",
+    "submission_url": "https://atcoder.jp/contests/abc188/submissions/19319883",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Jan/10/2021 17:34"
+  },
   "AC19329258": {
     "contest_id": "abc188",
     "language": "C++ (GCC 9.2.1)",
