@@ -25,16 +25,14 @@ int main()
 		cin >> arr[i];
 	}
 	int dp[n+1][s+1];
-	int start = power(2,n);
 	memset(dp,0,sizeof(dp));
 	for(int i = 0; i <= n;++i){
-		dp[i][0] = start;
+		dp[i][0] = power(2,n);
 	}
-	int inv = power(2,MOD-2);
 	for(int i = 1; i <= n;++i){
 		for(int sum = 1;sum <= s;++sum){
 			if(sum >= arr[i])
-				dp[i][sum] = (dp[i-1][sum] + (dp[i-1][sum-arr[i]] * 1LL * inv)%MOD)%MOD;
+				dp[i][sum] = (dp[i-1][sum] + (dp[i-1][sum-arr[i]] * 1LL * power(2,MOD-2))%MOD)%MOD;
 			else
 				dp[i][sum] = dp[i-1][sum];
 		}
