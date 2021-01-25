@@ -13,8 +13,9 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-955 | [E - Advertising Agency](https://codeforces.com/contest/1475/problem/E) | [GNU C++14](./codeforces/1475/E.cpp) | `combinatorics` `implementation` `math` `sortings` | Jan/26/2021 11:36 | 
-954 | [D - Cleaning the Phone](https://codeforces.com/contest/1475/problem/D) | [GNU C++14](./codeforces/1475/D.cpp) | `binary search` `dp` `greedy` `sortings` `two pointers` | Jan/25/2021 21:41 | 
+956 | [E - Advertising Agency](https://codeforces.com/contest/1475/problem/E) | [GNU C++14](./codeforces/1475/E.cpp) | `combinatorics` `implementation` `math` `sortings` | Jan/26/2021 11:36 | 
+955 | [D - Cleaning the Phone](https://codeforces.com/contest/1475/problem/D) | [GNU C++14](./codeforces/1475/D.cpp) | `binary search` `dp` `greedy` `sortings` `two pointers` | Jan/25/2021 21:41 | 
+954 | [C - Ball in Berland](https://codeforces.com/contest/1475/problem/C) | [GNU C++14](./codeforces/1475/C.cpp) | `combinatorics` `dfs and similar` `graphs` `hashing` `math` | Jan/25/2021 21:31 | 
 953 | [D - Multipliers](https://codeforces.com/contest/615/problem/D) | [GNU C++14](./codeforces/615/D.cpp) | `math` `number theory` `*2000` | Jan/22/2021 19:55 | 
 952 | [D - AND, OR and square sum](https://codeforces.com/contest/1368/problem/D) | [GNU C++14](./codeforces/1368/D.cpp) | `bitmasks` `greedy` `math` `*1700` | Jan/18/2021 22:01 | 
 951 | [G - Tree Modification](https://codeforces.com/contest/1375/problem/G) | [GNU C++14](./codeforces/1375/G.cpp) | `brute force` `constructive algorithms` `dfs and similar` `graph matchings` `graphs` `trees` `*2800` | Jan/18/2021 16:53 | 
