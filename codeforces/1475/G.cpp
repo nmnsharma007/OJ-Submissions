@@ -12,21 +12,25 @@ int main()
 	while(t--){
 		int n;
 		cin >> n;
+		set<int> s;
 		int maxi = 0;
 		vector<int> dp(N,0);
 		for(int i = 0; i < n;++i){
 			int x;
 			cin >> x;
 			maxi = max(maxi,x);
+			s.insert(x);
 			++dp[x];
 		}
+		set<int>::reverse_iterator rit;
 		int ans = 0;
-		for(int i = N-1; i >= 1;--i){
-			int cnt = dp[i];
-			for(int num = 2*i;num <= maxi;num += i){
-				dp[i] = max(dp[i],cnt+dp[num]);
+		for(rit = s.rbegin();rit != s.rend();++rit){
+			int x = *rit;
+			int cnt = dp[x];
+			for(int num = 2*x;num <= maxi;num += x){
+				dp[x] = max(dp[x],cnt+dp[num]);
 			}
-			ans = max(ans,dp[i]);
+			ans = max(ans,dp[x]);
 		}
 		cout << n-ans << "\n";
 	}
