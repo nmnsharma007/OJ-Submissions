@@ -3787,6 +3787,24 @@
     ],
     "timestamp": "Jan/22/2021 19:55"
   },
+  "CF105444394": {
+    "contest_id": 1475,
+    "language": "GNU C++14",
+    "path": "codeforces/1475/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Advertising Agency",
+    "problem_url": "https://codeforces.com/contest/1475/problem/E",
+    "submission_id": "CF105444394",
+    "submission_url": "https://codeforces.com/contest/1475/submission/105444394",
+    "tags": [
+      "combinatorics",
+      "implementation",
+      "math",
+      "sortings"
+    ],
+    "timestamp": "Jan/26/2021 11:36"
+  },
   "CF71978480": {
     "contest_id": 4,
     "language": "GNU C++14",
