@@ -13,11 +13,12 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-966 | [C - Marco and GCD Sequence](https://codeforces.com/contest/894/problem/C) | [GNU C++14](./codeforces/894/C.cpp) | `constructive algorithms` `math` `*1900` | Jan/31/2021 23:02 | 
-965 | [B - Ralph And His Magic Field](https://codeforces.com/contest/894/problem/B) | [GNU C++14](./codeforces/894/B.cpp) | `combinatorics` `constructive algorithms` `math` `number theory` `*1800` | Jan/31/2021 22:45 | 
-964 | [A - QAQ](https://codeforces.com/contest/894/problem/A) | [GNU C++14](./codeforces/894/A.cpp) | `brute force` `dp` `*800` | Jan/31/2021 18:38 | 
-963 | [D - Staircase Sequences](https://atcoder.jp/contests/abc190/tasks/abc190_d) | [C++ (GCC 9.2.1)](./atcoder/abc190/D.cpp) | `AtCoder` `*400` | Jan/30/2021 18:41 | 
-962 | [C - Bowls and Dishes](https://atcoder.jp/contests/abc190/tasks/abc190_c) | [C++ (GCC 9.2.1)](./atcoder/abc190/C.cpp) | `AtCoder` `*300` | Jan/30/2021 17:48 | 
+967 | [C - Marco and GCD Sequence](https://codeforces.com/contest/894/problem/C) | [GNU C++14](./codeforces/894/C.cpp) | `constructive algorithms` `math` `*1900` | Jan/31/2021 23:02 | 
+966 | [B - Ralph And His Magic Field](https://codeforces.com/contest/894/problem/B) | [GNU C++14](./codeforces/894/B.cpp) | `combinatorics` `constructive algorithms` `math` `number theory` `*1800` | Jan/31/2021 22:45 | 
+965 | [A - QAQ](https://codeforces.com/contest/894/problem/A) | [GNU C++14](./codeforces/894/A.cpp) | `brute force` `dp` `*800` | Jan/31/2021 18:38 | 
+964 | [D - Staircase Sequences](https://atcoder.jp/contests/abc190/tasks/abc190_d) | [C++ (GCC 9.2.1)](./atcoder/abc190/D.cpp) | `AtCoder` `*400` | Jan/30/2021 18:41 | 
+963 | [C - Bowls and Dishes](https://atcoder.jp/contests/abc190/tasks/abc190_c) | [C++ (GCC 9.2.1)](./atcoder/abc190/C.cpp) | `AtCoder` `*300` | Jan/30/2021 17:48 | 
+962 | [B - Magic 3](https://atcoder.jp/contests/abc190/tasks/abc190_b) | [C++ (GCC 9.2.1)](./atcoder/abc190/B.cpp) | `AtCoder` `*200` | Jan/30/2021 17:36 | 
 961 | [F - The Treasure of The Segments](https://codeforces.com/contest/1462/problem/F) | [GNU C++14](./codeforces/1462/F.cpp) | `binary search` `data structures` `greedy` `*1800` | Jan/27/2021 08:41 | 
 960 | [G - Strange Beauty](https://codeforces.com/contest/1475/problem/G) | [GNU C++14](./codeforces/1475/G.cpp) | `dp` `graphs` `math` `number theory` | Jan/26/2021 21:58 | 
 959 | [F - Unusual Matrix](https://codeforces.com/contest/1475/problem/F) | [GNU C++14](./codeforces/1475/F.cpp) | `constructive algorithms` `dfs and similar` `greedy` | Jan/26/2021 19:30 | 
