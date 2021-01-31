@@ -3948,6 +3948,23 @@
     ],
     "timestamp": "Jan/27/2021 08:41"
   },
+  "CF106127441": {
+    "contest_id": 894,
+    "language": "GNU C++14",
+    "path": "codeforces/894/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Marco and GCD Sequence",
+    "problem_url": "https://codeforces.com/contest/894/problem/C",
+    "submission_id": "CF106127441",
+    "submission_url": "https://codeforces.com/contest/894/submission/106127441",
+    "tags": [
+      "constructive algorithms",
+      "math",
+      "*1900"
+    ],
+    "timestamp": "Jan/31/2021 23:02"
+  },
   "CF71978480": {
     "contest_id": 4,
     "language": "GNU C++14",
