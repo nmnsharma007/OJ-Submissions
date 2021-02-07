@@ -13,6 +13,7 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
+978 | [B - The Great Hero](https://codeforces.com/contest/1480/problem/B) | [GNU C++14](./codeforces/1480/B.cpp) | `greedy` `implementation` | Feb/07/2021 20:46 | 
 977 | [F - Shift and Inversions](https://atcoder.jp/contests/abc190/tasks/abc190_f) | [C++ (GCC 9.2.1)](./atcoder/abc190/F.cpp) | `AtCoder` `*600` | Feb/01/2021 22:32 | 
 976 | [E - Magical Ornament](https://atcoder.jp/contests/abc190/tasks/abc190_e) | [C++ (GCC 9.2.1)](./atcoder/abc190/E.cpp) | `AtCoder` `*500` | Feb/01/2021 20:04 | 
 975 | [C - Marco and GCD Sequence](https://codeforces.com/contest/894/problem/C) | [GNU C++14](./codeforces/894/C.cpp) | `constructive algorithms` `math` `*1900` | Jan/31/2021 23:02 | 
