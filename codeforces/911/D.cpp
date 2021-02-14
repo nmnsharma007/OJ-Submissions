@@ -8,28 +8,20 @@ int main()
 	cin.tie(0);
 	int n;
 	cin >> n;
-	vector<int> p(n+1);
-	for(int i = 1; i <= n;++i){
+	vector<int> p(n);
+	for(int i = 0; i < n;++i){
 		cin >> p[i];
 	}
-	vector<bool> visited(n+1,false);
-	int parity = 0;
-	for(int i = 1;i <= n;++i){
-		if(visited[i])
-			continue;
-		int start = i;
-		int cycle = 0;
-		while(!visited[start]){
-			visited[start] = true;
-			start = p[start];
-			++cycle;
+	int ans = 0;
+	for(int i = 0; i < n;++i){
+		for(int j = 0; j < i;++j){
+			if(p[j] > p[i])
+				++ans;
 		}
-		--cycle;
-		if(cycle%2)
-			parity ^= 1;
 	}
 	int m;
 	cin >> m;
+	int parity = (ans%2) ? 1 : 0;
 	while(m--){
 		int l,r;
 		cin >> l >> r;
