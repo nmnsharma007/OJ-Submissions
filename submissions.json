@@ -4332,6 +4332,23 @@
     ],
     "timestamp": "Feb/09/2021 22:32"
   },
+  "CF107341735": {
+    "contest_id": 946,
+    "language": "GNU C++14",
+    "path": "codeforces/946/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "String Transformation",
+    "problem_url": "https://codeforces.com/contest/946/problem/C",
+    "submission_id": "CF107341735",
+    "submission_url": "https://codeforces.com/contest/946/submission/107341735",
+    "tags": [
+      "greedy",
+      "strings",
+      "*1300"
+    ],
+    "timestamp": "Feb/14/2021 19:01"
+  },
   "CF107342521": {
     "contest_id": 946,
     "language": "GNU C++14",
