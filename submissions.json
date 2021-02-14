@@ -4332,6 +4332,23 @@
     ],
     "timestamp": "Feb/09/2021 22:32"
   },
+  "CF107361345": {
+    "contest_id": 911,
+    "language": "GNU C++14",
+    "path": "codeforces/911/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Inversion Counting",
+    "problem_url": "https://codeforces.com/contest/911/problem/D",
+    "submission_id": "CF107361345",
+    "submission_url": "https://codeforces.com/contest/911/submission/107361345",
+    "tags": [
+      "brute force",
+      "math",
+      "*1800"
+    ],
+    "timestamp": "Feb/14/2021 23:30"
+  },
   "CF71978480": {
     "contest_id": 4,
     "language": "GNU C++14",
