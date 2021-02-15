@@ -28,10 +28,7 @@ int main()
 			for(int l = 0; l <= j;++l){
 				int start = store[i][l+1];
 				int end = store[i][num-j+l];
-				if(num <= l)
-					res = 0;
-				else
-					res = min(res,end-start+1);
+				res = min(res,max(0,end-start+1));
 			}
 			pre[i][j] = res;
 		}
