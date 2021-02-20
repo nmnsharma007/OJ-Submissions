@@ -2175,6 +2175,22 @@
     ],
     "timestamp": "Feb/01/2021 22:32"
   },
+  "AC20354041": {
+    "contest_id": "abc192",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/abc192/D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Base n",
+    "problem_url": "https://atcoder.jp/contests/abc192/tasks/abc192_d",
+    "submission_id": "AC20354041",
+    "submission_url": "https://atcoder.jp/contests/abc192/submissions/20354041",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Feb/20/2021 22:16"
+  },
   "CF101020355": {
     "contest_id": 1454,
     "language": "GNU C++14",
